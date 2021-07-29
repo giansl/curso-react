@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/curso-react/static/css/main.6b091d09.chunk.css",
-    "main.js": "/curso-react/static/js/main.bf0b316d.chunk.js",
-    "main.js.map": "/curso-react/static/js/main.bf0b316d.chunk.js.map",
+    "main.js": "/curso-react/static/js/main.10854a34.chunk.js",
+    "main.js.map": "/curso-react/static/js/main.10854a34.chunk.js.map",
     "runtime-main.js": "/curso-react/static/js/runtime-main.59a0979e.js",
     "runtime-main.js.map": "/curso-react/static/js/runtime-main.59a0979e.js.map",
-    "static/js/2.5858a03a.chunk.js": "/curso-react/static/js/2.5858a03a.chunk.js",
-    "static/js/2.5858a03a.chunk.js.map": "/curso-react/static/js/2.5858a03a.chunk.js.map",
+    "static/js/2.5a287544.chunk.js": "/curso-react/static/js/2.5a287544.chunk.js",
+    "static/js/2.5a287544.chunk.js.map": "/curso-react/static/js/2.5a287544.chunk.js.map",
     "static/js/3.5d79e24f.chunk.js": "/curso-react/static/js/3.5d79e24f.chunk.js",
     "static/js/3.5d79e24f.chunk.js.map": "/curso-react/static/js/3.5d79e24f.chunk.js.map",
     "index.html": "/curso-react/index.html",
     "static/css/main.6b091d09.chunk.css.map": "/curso-react/static/css/main.6b091d09.chunk.css.map",
-    "static/js/2.5858a03a.chunk.js.LICENSE.txt": "/curso-react/static/js/2.5858a03a.chunk.js.LICENSE.txt",
+    "static/js/2.5a287544.chunk.js.LICENSE.txt": "/curso-react/static/js/2.5a287544.chunk.js.LICENSE.txt",
     "static/media/logo-platzi-video-BW2.435b1bef.png": "/curso-react/static/media/logo-platzi-video-BW2.435b1bef.png"
   },
   "entrypoints": [
     "static/js/runtime-main.59a0979e.js",
-    "static/js/2.5858a03a.chunk.js",
+    "static/js/2.5a287544.chunk.js",
     "static/css/main.6b091d09.chunk.css",
-    "static/js/main.bf0b316d.chunk.js"
+    "static/js/main.10854a34.chunk.js"
   ]
 }
