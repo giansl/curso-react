@@ -8,7 +8,7 @@ import Layout from '../components/Layout';
 import Player from '../container/Player';
 
 const App = () => (
-    <BrowserRouter basename="https://giansl.github.io/curso-react/">
+    <BrowserRouter >
         <Layout>
             <Switch>
                 <Route exact path="/" component={Home} />
