@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter , Switch, Route } from 'react-router-dom';
 import Home from '../container/Home';
 import Login from '../container/Login';
 import Register from '../container/Register';
@@ -8,7 +8,7 @@ import Layout from '../components/Layout';
 import Player from '../container/Player';
 
 const App = () => (
-    <BrowserRouter>
+    <BrowserRouter basename="https://giansl.github.io/curso-react/">
         <Layout>
             <Switch>
                 <Route exact path="/" component={Home} />
