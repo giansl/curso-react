@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { registerRequest } from '../actions';
 import Header from '../components/Header';
 import '../assets/styles/components/Register.scss';
+import { withRouter } from 'react-router-dom';
 
 const Register = props => {
   const [form, setValues] = useState({
@@ -67,4 +68,4 @@ const mapDispatchToProps = {
   registerRequest,
 }
 
-export default connect(null, mapDispatchToProps)(Register)
+export default withRouter(connect(null, mapDispatchToProps)(Register));

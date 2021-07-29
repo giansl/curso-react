@@ -4,6 +4,7 @@ import { Redirect } from 'react-router-dom';
 import NotFound from './NotFound';
 import { getVideoSource } from '../actions';
 import '../assets/styles/components/Player.scss';
+import { withRouter } from 'react-router-dom';
 
 const Player = props => {
     const { id } = props.match.params;
@@ -37,4 +38,4 @@ const mapDispatchToProps = {
     getVideoSource,
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Player);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Player));

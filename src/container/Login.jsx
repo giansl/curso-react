@@ -6,6 +6,7 @@ import twitterIcon from '../assets/static/twitter-icon.png';
 import { loginRequest } from '../actions';
 import '../assets/styles/components/Login.scss'
 import Header from '../components/Header';
+import { withRouter } from 'react-router-dom';
 
 const Login = props => {
   const [form, setValues] = useState({
@@ -69,4 +70,4 @@ const mapDispatchToProps = {
   loginRequest,
 }
 
-export default connect(null, mapDispatchToProps)(Login)
+export default withRouter(connect(null, mapDispatchToProps)(Login));

@@ -6,6 +6,7 @@ import Categories from '../components/Categories';
 import Carousel from '../components/Carousel';
 import CarouselItem from '../components/CarouselItem';
 import Header from '../components/Header';
+import { withRouter } from 'react-router-dom';
 
 const Home = ({ myList, trends, originals }) => {
     return(
@@ -56,4 +57,4 @@ const mapStateToProps = state => {
     }
 }
 
-export default connect(mapStateToProps, null)(Home);
+export default withRouter(connect(mapStateToProps, null)(Home));
